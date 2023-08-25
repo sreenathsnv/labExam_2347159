@@ -1,0 +1,173 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+
+  
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height:20vh;
+    overflow: hidden;
+    margin-bottom: 3vh;
+
+}
+header img
+{
+    width:100%;
+    height:50vh;
+}
+button
+{
+    margin-left:5vh;
+}
+.li-item
+{
+    margin-left:2vh;
+}
+.btn-search
+{
+    margin-left:1vh;
+}
+.nav-display
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background: #272626;
+}
+.navcd
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1{
+    font-size: 15vh;
+    color:#1d6a5c;
+    margin:auto;
+    margin-top:10vh;
+    margin-bottom: 2vh;
+}
+.desc
+{
+    margin: auto;
+    font-size: 3vh;
+    color:#272626;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo
+{
+    width:4vh;
+    height:4vh;
+    border-radius: 50%;
+    background: url('./resources/5920.jpg');
+    background-size: cover;
+    margin-right: 2vh;
+}
+section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #e4e6e6;
+    margin:10vh 1vh 5vh 1vh;
+}
+h2{
+    font-size: 5vh;
+    color:#580465;
+    margin-left:15vh;
+    font-weight: 700;
+}
+.articles
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #ffffff;
+    border-radius: 1vh;
+    margin:3vh 2vh 3vh 2vh;
+    padding:1vh;
+}
+.article-head
+{
+    font-size: 4vh;
+    margin-left: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.article-desc
+{
+    font-size: 2vh;
+    margin:1vh 2vh 1vh 2vh;
+}
+.art-btn
+{
+    width:12vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.articles:not(:hover)
+{
+    filter: opacity(.5);
+    transition: 1s;
+}
+.articles:hover
+{
+    filter: opacity(1);
+    transition: 1s;
+    
+}
+
+.login
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:40vh;
+    height:40vh;
+    margin: auto;
+    background: #f7f7f7;
+    padding:4vh 2vh 4vh 2vh;
+    border-radius: 2vh;
+    box-shadow: 2vh 3vh 2em 1vh #bebebe;
+    border:1px solid #eceaea
+}
+
+.login input
+{
+    outline:none;
+    font-size:2vh;
+    margin-top:2vh;
+    margin-bottom: 5vh;
+}
+.login label{
+
+    font-size: 2vh;
+    font-weight: 600;
+    color:#454444;
+}
+.login mod-btn
+{
+    margin:0;
+}
+footer
+{
+    background: url('./resources/pexels-nataliya-vaitkevich-7488206.jpg');
+    background-size: cover;
+}
